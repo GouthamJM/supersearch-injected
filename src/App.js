@@ -19,14 +19,14 @@ const data = [
 ];
 
 function App() {
-  const linkClick=(hash)=>{
+  const linkClick = (hash) => {
     const message = {
-      chainId:'1',
+      chainId: "1",
       hash,
-    }
-    const event = new CustomEvent('super-search-tx', { detail: message })
-    window.dispatchEvent(event)
-  }
+    };
+    const event = new CustomEvent("super-search-tx", { detail: message });
+    window.dispatchEvent(event);
+  };
   return (
     <>
       <h1 class="p-4">ETHGlobal - SuperHack 2023</h1>
@@ -37,7 +37,12 @@ function App() {
               <div className="p-4">
                 <div className="textHeading">{_item.title}</div>
                 {_item.values.map((_val) => (
-                  <p className="pargagraph p-1 clickableText" onClick={()=>linkClick(_val)}>{_val}</p>
+                  <p
+                    className="pargagraph p-1 clickableText"
+                    onClick={() => linkClick(_val)}
+                  >
+                    {_val}
+                  </p>
                 ))}
               </div>
             ))}
@@ -46,14 +51,14 @@ function App() {
         <div className="pb-4">
           <div className="textHeading">Code To Embed in your site</div>
           <a
-            className="pargagraph p-1"
+            className="pargagraph p-1 d-sm-inline"
             href="https://ds-storage.sgp1.cdn.digitaloceanspaces.com/SuperSearch/ss_v_1.css"
           >
             https://ds-storage.sgp1.cdn.digitaloceanspaces.com/SuperSearch/ss_v_1.css
           </a>
           <br />
           <a
-            className="pargagraph p-1"
+            className="pargagraph p-1 d-sm-inline"
             href="https://ds-storage.sgp1.cdn.digitaloceanspaces.com/SuperSearch/ss_v_1.js"
           >
             https://ds-storage.sgp1.cdn.digitaloceanspaces.com/SuperSearch/ss_v_1.js
@@ -65,6 +70,20 @@ function App() {
               alt="code"
             />
           </div>
+        </div>
+        <div className="pb-4">
+          <a
+            className="pargagraph p-1 d-sm-inline"
+            href=" https://github.com/GouthamJM/SuperSearch"
+          >
+            Repo link Github
+          </a>
+          <a
+            className="pargagraph p-1 d-sm-inline"
+            href="https://www.linkedin.com/in/gouthamjm/"
+          >
+           Connect with me in LinkedIn
+          </a>
         </div>
       </div>
     </>
