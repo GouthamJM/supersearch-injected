@@ -18,7 +18,7 @@ const data = [
   { title: "ENS", values: ["johndoe.eth", "vitalik.eth"] },
 ];
 
-function App() {
+function App() { 
   const linkClick = (hash) => {
     const message = {
       chainId: "1",
@@ -38,7 +38,7 @@ function App() {
                 <div className="textHeading">{_item.title}</div>
                 {_item.values.map((_val) => (
                   <p
-                    className="pargagraph p-1 clickableText"
+                    className="pargagraph p-1 clickableText d-sm-inline"
                     onClick={() => linkClick(_val)}
                   >
                     {_val}
