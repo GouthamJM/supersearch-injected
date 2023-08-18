@@ -1,5 +1,5 @@
 import "./App.css";
-
+import React from "react";
 const data = [
   {
     title: "ETH Transactions Hash",
@@ -37,12 +37,15 @@ function App() {
               <div className="p-4">
                 <div className="textHeading">{_item.title}</div>
                 {_item.values.map((_val) => (
+                  <React.Fragment key={_val}>
                   <p
-                    className="pargagraph p-1 clickableText d-sm-inline"
+                    className="pargagraph p-1 clickableText d-sm-inline "
                     onClick={() => linkClick(_val)}
                   >
                     {_val}
                   </p>
+                  <br/>
+                  </React.Fragment>
                 ))}
               </div>
             ))}
