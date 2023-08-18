@@ -27,6 +27,19 @@
 .App-link {
   color: #61dafb;
 }
+.codeWrapper{
+    background-color: #000;
+    color: #fff;
+    border-radius: 0.3rem;
+    padding: 24px;
+    white-space: nowrap;
+}
+.textHeading{
+  color:#000;
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 8px;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -35,4 +48,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.homeInput{
+  padding-right: 24px !important;
 }
