@@ -58,14 +58,14 @@ function App() {
             className="pargagraph p-1 d-sm-inline"
             href="https://ds-storage.sgp1.cdn.digitaloceanspaces.com/SuperSearch/ss_v_1.css"
           >
-            https://ds-storage.sgp1.cdn.digitaloceanspaces.com/SuperSearch/ss_v_1.css
+            https://ds-storage.sgp1.cdn.digitaloceanspaces.com/SuperSearch/ss_v_2.css
           </a>
           <br />
           <a
             className="pargagraph p-1 d-sm-inline"
             href="https://ds-storage.sgp1.cdn.digitaloceanspaces.com/SuperSearch/ss_v_1.js"
           >
-            https://ds-storage.sgp1.cdn.digitaloceanspaces.com/SuperSearch/ss_v_1.js
+            https://ds-storage.sgp1.cdn.digitaloceanspaces.com/SuperSearch/ss_v_2.js
           </a>
           <br />
           <div className="p-4">
