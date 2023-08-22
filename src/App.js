@@ -53,7 +53,13 @@ function App() {
           </div>
         </div>
         <div className="pb-4">
-          <div className="textHeading">Code To Embed in your site</div>
+          <div className="textHeading">Code To Embed in your Dapp</div>
+          <div className="heading6">Code To Embed in your Dapp</div>
+          <div className="d-flex justify-content-start flex-column row-gap-3 pb-2">
+            <p>1.open index.html in your Dapp</p>
+            <p>2.Update super search js and css code give in the head part of your code</p>
+            <p>3.If you want to override the styling you can update local variables present in css</p>
+          </div>
           <a
             className="pargagraph p-1 d-sm-inline"
             href="https://ds-storage.sgp1.cdn.digitaloceanspaces.com/SuperSearch/ss_v_1.css"
