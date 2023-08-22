@@ -16,6 +16,7 @@ const data = [
     ],
   },
   { title: "ENS", values: ["johndoe.eth", "vitalik.eth"] },
+  { title: "Block", values: ["17968975", "17968948"] },
 ];
 
 function App() { 
